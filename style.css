@@ -106,9 +106,27 @@ body{
     .text-container .animated-text{
         width:70%;
     }
-  }
+    .text-container h1{
+        font-size: 70px;
+    }
+}
  
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
+    .text-container .animated-text h2{
+        font-size: 25px;
+    }
+    .text-container .animated-text{
+        width:80%;
+    }
+    .text-container h1 {
+        font-size: 50px;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+  
+}
+@media screen and (max-width: 320px) {
     .text-container .animated-text h2{
         font-size: 30px;
     }
@@ -116,10 +134,6 @@ body{
         width:80%;
     }
     .text-container h1 {
-        font-size: 65px;
+        font-size: 40px;
     }
-    
-  }
-  @media screen and (min-width: 1024px) {
-  
-  }
+}
