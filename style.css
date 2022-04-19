@@ -77,20 +77,23 @@ body{
     0%{
         margin-top: 0;
     }
-    20%{
+    10%{
         margin-top: -75px;
     }
-    40%{
+    20%{
         margin-top: -150px;
     }
-    50%{
-        margin-top: -225px;
+    40%{
+        margin-top: -225x;
     }
-    70%{
+    50%{
         margin-top: -300px;
     }
-    80%{
+    70%{
         margin-top: -375px;
+    }
+    80%{
+        margin-top: -450px;
     }
     100%{
         margin-top: 0;
