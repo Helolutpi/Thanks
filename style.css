@@ -129,3 +129,172 @@ body{
 @media screen and (min-width: 1024px) {
   
 }
+
+
+.animation-container{
+    z-index: 999;
+    position: absolute;
+    width: 750px;
+    height: 550px;
+}
+.burst{
+    position:absolute;
+}
+.burst .line{
+    position: absolute;
+    background: #fff;
+    width: 5px;
+    height: 8px;
+
+}
+.burst .line:nth-child(1){
+   background: #ea4335;
+   animation: move01 1s linear infinite;
+}
+@keyframes move01{
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0,-30px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0,-60px);
+        opacity: 0;
+    }
+}
+.burst .line:nth-child(2){
+    background: #34a853;
+    animation: move02 1s linear infinite;
+ }
+ @keyframes move02{
+     0%{
+         transform: rotate(45deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(45deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(45deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+
+ .burst .line:nth-child(3){
+    background: #4285f4;
+    animation: move03 1s linear infinite;
+ }
+ @keyframes move03{
+     0%{
+         transform: rotate(90deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(90deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(90deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+
+ .burst .line:nth-child(4){
+    background: #4285f4;
+    animation: move04 1s linear infinite;
+ }
+ @keyframes move04{
+     0%{
+         transform: rotate(135deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(135deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(135deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+ 
+ .burst .line:nth-child(5){
+    background: #DC18B9;
+    animation: move05 1s linear infinite;
+ }
+ @keyframes move05{
+     0%{
+         transform: rotate(180deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(180deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(180deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+  
+ .burst .line:nth-child(6){
+    background: #ff5a00;
+    animation: move06 1s linear infinite;
+ }
+ @keyframes move06{
+     0%{
+         transform: rotate(225deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(225deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(225deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+
+  
+ .burst .line:nth-child(7){
+    background: #8621f8;
+    animation: move07 1s linear infinite;
+ }
+ @keyframes move07{
+     0%{
+         transform: rotate(270deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(270deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(270deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
+
+ .burst .line:nth-child(8){
+    background: #ffff1b;
+    animation: move08 1s linear infinite;
+ }
+ @keyframes move08{
+     0%{
+         transform: rotate(315deg) translate(0,0);
+         opacity: 0;
+     }
+     50%{
+         transform: rotate(315deg) translate(0,-30px);
+         opacity: 1;
+     }
+     100%{
+         transform: rotate(315deg) translate(0,-60px);
+         opacity: 0;
+     }
+ }
