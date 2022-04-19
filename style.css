@@ -107,17 +107,7 @@ body{
         width:70%;
     }
   }
-  @media screen and (max-width: 320px) {
-    .text-container .animated-text h2{
-        font-size: 5px;
-    }
-    .text-container .animated-text{
-        width:90%;
-    }
-    .text-container h1 {
-        font-size: 80px;
-    }
-  }
+ 
   @media screen and (max-width: 576px) {
     .text-container .animated-text h2{
         font-size: 30px;
