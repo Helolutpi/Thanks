@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat Brush', cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffac9f;
+    overflow: hidden;
+}
+.text-container h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 1rem;
+
+
+}
+.text-container h1 span{
+    font-size: 800px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+
+}
+.text-container .animated-text{
+    position: relative;
+    background: #aa6df0;
+    margin-top: 1rem;
+    width: 80%;
+    height: 75px;
+    box-shadow: 0 0 10px #aa6df0,
+                0 0 120px #aa6df0;
+    border-radius: .2rem;
+    
+    overflow: hidden;
+}
+.thanks__img{
+    width: 60%;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    
+}
+.text-container .animated-text:before{
+    content:'';
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    transform: skew(25deg) translateX(-20px);
+
+}
+
+.text-container .animated-text h2{
+    color: rgb(102, 48, 35);
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+
+    
+}
+.text_but{
+    text-transform: uppercase;
+}
+.text-container .animated-text h2:nth-child(1){
+    animation: text-move 22s infinite;
+
+}
+@keyframes text-move{
+    0%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: -75px;
+    }
+    40%{
+        margin-top: -150px;
+    }
+    50%{
+        margin-top: -225px;
+    }
+    70%{
+        margin-top: -300px;
+    }
+    80%{
+        margin-top: -375px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+.text-container{
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.08));
+}
