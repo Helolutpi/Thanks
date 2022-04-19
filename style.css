@@ -24,7 +24,7 @@ body{
 
 }
 .text-container h1 span{
-    font-size: 800px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
@@ -34,7 +34,7 @@ body{
     position: relative;
     background: #aa6df0;
     margin-top: 1rem;
-    width: 80%;
+    width: 570px;
     height: 75px;
     box-shadow: 0 0 10px #aa6df0,
                 0 0 120px #aa6df0;
@@ -60,7 +60,7 @@ body{
 
 .text-container .animated-text h2{
     color: rgb(102, 48, 35);
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
     line-height: 75px;
 
