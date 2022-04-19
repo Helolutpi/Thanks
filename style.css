@@ -34,7 +34,7 @@ body{
     position: relative;
     background: #aa6df0;
     margin-top: 1rem;
-    width: 570px;
+    width: 80%;
     height: 75px;
     box-shadow: 0 0 10px #aa6df0,
                 0 0 120px #aa6df0;
@@ -60,7 +60,7 @@ body{
 
 .text-container .animated-text h2{
     color: rgb(102, 48, 35);
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
     line-height: 75px;
 
@@ -99,3 +99,37 @@ body{
 .text-container{
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.08));
 }
+@media screen and (max-width: 768px) {
+    .text-container .animated-text h2{
+        font-size: 40px;
+    }
+    .text-container .animated-text{
+        width:70%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .text-container .animated-text h2{
+        font-size: 5px;
+    }
+    .text-container .animated-text{
+        width:90%;
+    }
+    .text-container h1 {
+        font-size: 80px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .text-container .animated-text h2{
+        font-size: 30px;
+    }
+    .text-container .animated-text{
+        width:65%;
+    }
+    .text-container h1 {
+        font-size: 65px;
+    }
+    
+  }
+  @media screen and (min-width: 1024px) {
+  
+  }
